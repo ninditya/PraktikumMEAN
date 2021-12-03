@@ -25,6 +25,6 @@ app.use(cors())
 // route middlewares
 app.use('/api/users', UserRoutes)
 app.use('/api/Product', ProductRoutes)
-app.use('/api/time',timeRouter)
+app.use('/api/time', TimeRouter)
 
 app.listen(process.env.PORT, () => console.log(`Running server on port: ${process.env.PORT}`))
